@@ -14,5 +14,6 @@ def tally(answer, value):
     for b in remove_data:
         database.remove(b)
     
-
-    
+    if len(database) == 1:
+        print("your charcter is "+database[0]["name"])
+        quit()
