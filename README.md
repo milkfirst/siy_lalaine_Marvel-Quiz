@@ -1,6 +1,6 @@
 # Which Marvel Character are you thinking about? Let me guess!
 
-Welcome to my short little guessing game. Let me guess which Marvel character you're thinking about between: Gamora, Spiderman, Black Widow, Hulk and Wolverine. I hope this works!
+Welcome to my short little guessing game. Let me guess which Marvel character you're thinking about between: Gamora, Spiderman, Black Widow and Hulk. I hope this works!
 
 ## Installation
 
