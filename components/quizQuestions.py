@@ -1,25 +1,13 @@
-questions = {
-    "q1" : {
-        "question" : "Are they male or female?",
-        "male" : 1,
-        "female" : 0
-    },
+from components.quizTally import tally
 
-    "q2" : {
-        "question" : "Are they from Earth?",
-        "yes" : 1,
-        "no" : 0
-    },
+ans = input("is your character male or female? (m/f) ")
+tally(ans, "male")
 
-    "q3" : {
-        "question" : "Do they wear a mask?",
-        "yes" : 1,
-        "no" : 0
-    },
+ans = input("is your character from Earth? (y/n) ")
+tally(ans, "earth")
 
-    "q4" : {
-        "question" : " Are they human?",
-        "yes" : 1,
-        "no": 0
-    }
-}
+ans = input("does your wear a mask? (y/n) ")
+tally(ans, "mask")
+
+ans = input("is your character human? (m/f) ")
+tally(ans, "human")
