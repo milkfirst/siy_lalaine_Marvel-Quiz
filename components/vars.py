@@ -1,6 +1,5 @@
-
 database = [
-    
+
     {"name":"Hulk", "male": True, "earth": True, "mask": False, "human": True},
 
     {"name":"Spiderman", "male": True, "earth": True, "mask": True},
