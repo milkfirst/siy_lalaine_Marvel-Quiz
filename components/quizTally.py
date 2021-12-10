@@ -15,5 +15,5 @@ def tally(answer, value):
         database.remove(b)
     
     if len(database) == 1:
-        print("I bet your character is "+database[0]["name"]+"!")
+        print("I bet your character is "+database[0]["name"]+"! "+"\U0001f600")
         quit()

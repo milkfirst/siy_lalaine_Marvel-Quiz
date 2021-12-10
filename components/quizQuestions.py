@@ -1,5 +1,9 @@
 from components.quizTally import tally
 
+print("WELCOME TO MY LITTLE GUESSING GAME!")
+print("Pick a character: Hulk, Spiderman, Gamora or Black Widow")
+print("Let me guess who you're thinking about")
+
 ans = input("is your character male or female? (y for male / n for female): ")
 tally(ans, "male")
 
